@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.item{
+color:white;
+}
+
+.logo{
+    text-align: center;
+}
+.hero{
+    background-color:#0097DA;
+    color:black;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content:center;
+    border: 3px solid;
+}
+.datos{
+
+    text-align: center;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-img{
+    border:2px solid;
+    width: 300px;
+    background-color: white;
+    border-radius: 3rem;
+}
+.hero-title2{
+    font-size: 3rem;
+    color:white;
+}
+.hero-text{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.hero-btn{
+    display: inline-block;
+    color: #4B1616;
+    color:black;
+    border:1px solid black;
+    background-color: white;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+/*.body_grid{
+display: grid;
+grid-template-rows: auto 1fr auto;
+min-height: 100vh;
+}*/
+
+.titulo2{
+    margin-top: 1rem;
+    text-align:center;
+    font-size: 3rem
+}
+.servicios{
+    display: grid;
+    height: 45vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+
+   /*display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    justify-content: space-between;*/
+}  
+
+.pack1{
+   
+    padding: 1rem;
+    border: 3px solid;
+    background-color: #0097DA;
+    
+
+}
+.pack-img{
+width: 50%;
+}
+
+.title-Serv{
+    padding: 1rem;
+    color:white;
+    font-size: 1.5rem;
+}
+
+.pack1-btn{
+    background-color: #25d366;
+    border: 1px solid black;
+    padding:0.5rem;
+}
+
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 3rem 2rem;
+}
+.footer1{
+    
+    margin-top:4rem;
+    flex: 3;
+}
+.footer2{
+    flex: 1;
+}
+.footer3{
+    flex: 2;
+}
+
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+  	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+
+
+/* CSS Blog*/
+.hero-serv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid;
+}
+.imagen-Serv{
+    padding: 2rem 2rem;
+
+}
+
+.texto-Tratamiento{
+    background-color:#0097DA;
+    width: 600px;
+    padding: 1rem 2rem;
+    border: 1px solid
+}
+/* CSS Sobre Mi */
+
+.hero-yo{
+padding:1rem 3rem;
+display: flex;
+}
+.sobreMi{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.podo-img{
+    padding: 1rem 3rem;
+}
+.yenny-texto{
+    margin-top: 1rem;
+    text-align:justify
+
+}
+.atencion{
+
+    margin-top: 2rem;
+    text-align: center;
+}
+.atencion-btn{
+    display: inline-block;
+    color:black;
+    border:1px solid black;
+    background-color: white;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* css Servicios */
+
+
+.atencion-img{
+    width: 530px;
+}
+
+.lista-servicios{
+    list-style:inside;
+    text-align: left;
+    line-height: 3;
+}
+.table-lista{
+    padding: 2rem 3rem;
+    margin: auto;
+}
+
+/* css Contacto */
+.hero-contacto{
+    display: flex;
+    padding: 3rem 1rem;
+    justify-content:center;
+    gap: 2rem;
+
+    
+}
+.titulo-contacto{
+    text-align: center;
+    margin-block-end: 3rem;
+}
+
+
+
+@media (max-width: 1300px){
+
+    .servicios{
+        height: 110%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items:normal;
+    }
+
+    .yenny-n{
+        width: 200px;
+    }
+
+    .yenny-texto{
+        margin-top: .5rem;
+        text-align:justify;
+        font-size: 12px;
+    }
+
+ 
+
+    .hero-yo{
+        padding:1rem 3rem;
+        flex-direction: column;
+        }
+
+        .hero-contacto{
+            flex-direction: column;
+        }
+        
+}
+
+@media (max-width: 700px)
+    {
+
+ 
+    /*inicio*/
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .hero-img{
+        width: 100px;
+        align-items: left;
+        border:2px solid;
+        border-radius: 0rem;
+
+    }
+    
+    .hero-title{
+        font-size: 1.5rem;
+    }
+
+
+    .hero-title2{
+        font-size: 1.5rem; 
+    }
+
+    .hero-text{
+    font-size: 20px;      
+    }
+
+.footer{
+flex-direction: column;
+padding: 1rem 1rem;
+align-items: center;
+}       
+
+/*sobreMI*/
+.atencion-btn{
+    font-size: 1rem;
+}
+.titulo2{
+    font-size: 1.5rem;
+}
+
+.texto-Tratamiento{
+    font-size: .6rem;
+}
+
+
+} 
