@@ -1,0 +1,77 @@
+@media(max-width: 991px){
+    .navbar-collapse {
+        position: fixed;
+        top: 60px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background:$colorTercero;
+        z-index: 9999;
+    }
+    }
+    
+    
+    @media (max-width: 700px)
+        {
+    
+    
+        /*inicio*/
+    
+        .navbar-collapse {
+            position: fixed;
+            top: 60px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: $colorTercero;
+            z-index: 9999;
+        }
+    
+    
+        .hero .hero-img{
+            width: 50px;
+            align-items: left;
+            border:2px solid;
+            border-radius: 0rem;
+    
+        }
+        
+        .hero-title{
+            font-size: 1.5rem;
+        }
+    
+    
+        .hero{
+            .datos{
+                .hero-title2{
+                    font-size: 1.5rem; 
+                }
+            }
+        }
+    
+    
+        .hero-text{
+        font-size: 20px;      
+        }
+    
+        .footer{
+        flex-direction: column;
+        padding: 1rem 1rem;
+        align-items: center;
+        }       
+    
+        /*sobreMI*/
+        .atencion-btn{
+            font-size: 1rem;
+        }
+        .titulo2{
+            font-size: 1.5rem;
+        }
+    
+        .texto-Tratamiento{
+            font-size: .6rem;
+        }
+    
+    
+    } 
+    

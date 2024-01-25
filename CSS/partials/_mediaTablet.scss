@@ -1,0 +1,34 @@
+
+@media (max-width: 1300px){
+
+
+    
+    .servicios{
+        height: 110%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items:normal;
+    }
+
+    .yenny-n{
+        width: 200px;
+    }
+
+    
+    .hero-yo{
+        padding:1rem 3rem;
+        flex-direction: column;
+
+        .yenny-texto{
+            margin-top: .5rem;
+            text-align:justify;
+            font-size: 12px;
+        }
+
+    }
+
+    .hero-contacto{
+        flex-direction: column;
+    }
+        
+}

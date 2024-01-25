@@ -1,0 +1,39 @@
+/* CSS sobreMi*/
+.sobreMi{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.hero-yo{
+    padding:1rem 3rem;
+    display: flex;
+
+    .podo-img{
+        padding: 1rem 3rem;
+    }
+    .yenny-texto{
+        margin-top: 1rem;
+        text-align:justify;
+
+        .atencion{
+        margin-top: 2rem;
+        text-align: center;
+        }
+
+        .atencion-btn{
+        display: inline-block;
+        color:$colorSegundario;
+        border:1px solid $colorSegundario;
+        background-color: $colorTercero;
+        border-radius: 5rem;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        display: block;
+        text-align: center;
+        margin: auto;
+        font-weight: bold;
+        font-size: 2rem;
+        }
+    }
+
+}

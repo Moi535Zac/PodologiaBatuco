@@ -1,0 +1,47 @@
+.titulo2{
+    margin-top: 1rem;
+    text-align:center;
+    font-size: 3rem
+}
+
+.servicios{
+    display: grid;
+    height: 45vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+
+   /*display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    justify-content: space-between;*/
+    
+    .pack1{
+   
+        padding: 1rem;
+        border: 3px solid;
+        background-color: $colorPrincipal;
+        
+        .pack-img{
+            width: 50%;
+        }
+        .title-Serv{
+            padding: 1rem;
+            color:$colorTercero;
+            font-size: 1.5rem;
+        }
+        
+        .pack1-btn{
+            background-color: $colorCuarto;
+            border: 1px solid $colorSegundario;
+            padding:0.5rem;
+        }
+
+    
+    }
+
+    
+}  

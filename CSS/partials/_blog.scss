@@ -1,0 +1,21 @@
+/* CSS Blog*/
+.hero-serv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid;
+
+    .imagen-Serv{
+        padding: 1rem;
+    }
+
+    .texto-Tratamiento{
+        background-color:$colorPrincipal;
+        width: 600px;
+        padding: 1rem 2rem;
+        border: 1px solid
+    }
+
+
+}

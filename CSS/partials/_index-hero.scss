@@ -1,0 +1,42 @@
+.hero{
+    background-color:$colorPrincipal;
+    color:$colorSegundario;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content:center;
+    border: 3px solid;
+
+    .datos{
+
+        text-align: center;
+        border-radius: 2rem;
+        margin-top: 2rem;
+
+        .hero-title2{
+            font-size: 3rem;
+            color:$colorTercero;
+        }
+        .hero-text{
+            margin-top: 2rem;
+            font-size: 1.5rem;
+        }        
+        .hero-btn{
+            display: inline-block;
+            color: #4B1616;
+            color:$colorSegundario;
+            border:1px solid $colorSegundario;
+            background-color:$colorTercero;
+            border-radius: 5rem;
+            padding: 0.5rem;
+            margin-top: 2rem;
+        }
+
+    }
+    .hero-img{
+        border:2px solid;
+        width: 300px;
+        background-color:$colorTercero;
+        border-radius: 3rem;
+    }
+
+}
