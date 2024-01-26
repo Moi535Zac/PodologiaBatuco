@@ -10,6 +10,11 @@
 
     .podo-img{
         padding: 1rem 3rem;
+        transition: transform 0.2s;
+       
+        &:hover {
+          transform: scale(1.1);
+      }
     }
     .yenny-texto{
         margin-top: 1rem;
@@ -34,6 +39,19 @@
         font-weight: bold;
         font-size: 2rem;
         }
+
     }
 
+    @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      
+      #sobreMi-anim {
+        animation: fadeIn 2s ease-in-out;
+      }
 }

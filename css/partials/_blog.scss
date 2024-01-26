@@ -1,5 +1,6 @@
 /* CSS Blog*/
 .hero-serv{
+
     display: flex;
     justify-content:center;
     align-items: center;
@@ -8,14 +9,32 @@
 
     .imagen-Serv{
         padding: 1rem;
-    }
 
+    }
     .texto-Tratamiento{
         background-color:$colorPrincipal;
         width: 600px;
         padding: 1rem 2rem;
-        border: 1px solid
+
+        text-align: justify;
+
     }
 
-
 }
+
+@media (max-width: 700px)
+    {
+
+        .hero-serv{
+            display: flex;
+            flex-direction: column;   
+            
+            .texto-Tratamiento{
+                width: 100%;       
+                font-size: 20px;
+                text-align: justify;
+            }
+        
+        }
+
+    }

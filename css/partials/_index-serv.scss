@@ -24,6 +24,7 @@
         padding: 1rem;
         border: 3px solid;
         background-color: $colorPrincipal;
+        transition: transform 0.2s;
         
         .pack-img{
             width: 50%;
@@ -38,6 +39,10 @@
             background-color: $colorCuarto;
             border: 1px solid $colorSegundario;
             padding:0.5rem;
+        }
+
+        &:hover {
+            transform: scale(1.1);
         }
 
     

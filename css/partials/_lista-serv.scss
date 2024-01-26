@@ -1,23 +1,47 @@
 
-.ser-lista{
-    .table-lista{
-
-        padding: 2rem 3rem;
-        margin: auto;
-
-
-        .tr-tabla{
-            .atencion-img{
-                width: 530px;
-            }
+.content-container {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    padding:2rem 5rem;
+    margin: auto;
             
+        .atencion-img{
+
+            width: 530px;
+        }
+
+    .text-container {
+
+        .lista-servicios{
+            list-style:inside;
+            text-align: left;
+            line-height: 3;
+        }
+    }
+
+}
+
+
+
+@media (max-width: 700px) {
+    .content-container {
+    
+        padding: 0;
+        
+        .atencion-img{
+
+            width: 400px;
+        }
+
+        .text-container {
+
             .lista-servicios{
-                list-style:inside;
-                text-align: left;
-                line-height: 3;
+                line-height: 2;
             }
         }
-        
     }
-    
+
+
+
 }

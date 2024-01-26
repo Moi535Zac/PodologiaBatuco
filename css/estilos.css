@@ -109,6 +109,7 @@ a {
   padding: 1rem;
   border: 3px solid;
   background-color: #0097DA;
+  transition: transform 0.2s;
 }
 .servicios .pack1 .pack-img {
   width: 50%;
@@ -122,6 +123,9 @@ a {
   background-color: #25d366;
   border: 1px solid black;
   padding: 0.5rem;
+}
+.servicios .pack1:hover {
+  transform: scale(1.1);
 }
 
 /* CSS Blog*/
@@ -139,9 +143,20 @@ a {
   background-color: #0097DA;
   width: 600px;
   padding: 1rem 2rem;
-  border: 1px solid;
+  text-align: justify;
 }
 
+@media (max-width: 700px) {
+  .hero-serv {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-serv .texto-Tratamiento {
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+  }
+}
 /* CSS sobreMi*/
 .sobreMi {
   margin-top: 1rem;
@@ -154,6 +169,10 @@ a {
 }
 .hero-yo .podo-img {
   padding: 1rem 3rem;
+  transition: transform 0.2s;
+}
+.hero-yo .podo-img:hover {
+  transform: scale(1.1);
 }
 .hero-yo .yenny-texto {
   margin-top: 1rem;
@@ -177,20 +196,45 @@ a {
   font-weight: bold;
   font-size: 2rem;
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.hero-yo #sobreMi-anim {
+  animation: fadeIn 2s ease-in-out;
+}
 
-.ser-lista .table-lista {
-  padding: 2rem 3rem;
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 5rem;
   margin: auto;
 }
-.ser-lista .table-lista .tr-tabla .atencion-img {
+.content-container .atencion-img {
   width: 530px;
 }
-.ser-lista .table-lista .tr-tabla .lista-servicios {
+.content-container .text-container .lista-servicios {
   list-style: inside;
   text-align: left;
   line-height: 3;
 }
 
+@media (max-width: 700px) {
+  .content-container {
+    padding: 0;
+  }
+  .content-container .atencion-img {
+    width: 400px;
+  }
+  .content-container .text-container .lista-servicios {
+    line-height: 2;
+  }
+}
 /* css Contacto */
 .hero-contacto {
   display: flex;
